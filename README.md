@@ -44,6 +44,14 @@ A. Monthly Sales Trend Chart
 - Insert a line chart based on the PivotTable to show the monthly trend of total sales.
 - Place the chart in the Sales Overview section and add titles, labels, and data points as needed.
 
+## Example Dashboard Layout
+Here’s a suggested layout for your Dashboard sheet:
+- Section	Contents
+- Sales Overview	Monthly Sales Trend Chart, Total Sales KPI
+- Top-Performing Products	Bar Chart of Total Sales by Product
+- Regional Breakdown	Pie Chart of Sales by Region
+- Additional Insights	Top 5 Customers Chart, Year-over-Year Comparison Chart
+- Slicers	Year, Region, Product slicers for filtering
 
 
 
