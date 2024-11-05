@@ -23,3 +23,33 @@ This is where i want to keep my first project while learning Data Analysis with 
 - Insight: This line chart shows sales trends over time, helping you observe peaks and dips in sales.
 - Design Tip: Enable data markers to clearly show each month’s data point. Include tooltips with exact sales numbers and order counts for more detailed insights.
 
+## Powerbi Ans.
+### Step 1: Prepare Your Data
+- Create a Table: Ensure your data is formatted as a table in Excel for easy manipulation. Go to Insert > Table and select your data range.
+- Add Calculated Columns: Add a Total Sales column using the formula =Quantity * UnitPrice if not already done.
+- Convert Order Date to Month & Year Columns: This will make it easier to group data by month and year in PivotTables.
+Use Excel formulas like =TEXT(OrderDate, "YYYY-MM") in a new column called OrderMonth.
+
+
+### Step 2: Set Up the Dashboard Layout
+- Create a new worksheet and name it Dashboard.
+- Organize the layout with separate sections for the Sales Overview, Top-Performing Products, and Regional Breakdown.
+- Leave space for charts and slicers for interactivity.
+
+### Step 3: Sales Overview Section
+A. Monthly Sales Trend Chart
+- Create a PivotTable:
+- Rows: OrderMonth (group by month and year).
+- Values: Sum of Total Sales.
+- Insert a line chart based on the PivotTable to show the monthly trend of total sales.
+- Place the chart in the Sales Overview section and add titles, labels, and data points as needed.
+
+
+
+
+
+
+
+
+
+
